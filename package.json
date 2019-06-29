@@ -1,0 +1,18 @@
+{
+  "name": "rupeek",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "None"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Arpit anand",
+  "license": "MIT"
+}

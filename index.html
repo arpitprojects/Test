@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+      <title>
+          Rupeek
+      </title>
+  </head>
+  <body>
+    <div>
+             <h2>Problem 1</h2>
+      <br />
+      <input type="file" id="get-file1" />
+      <br /><br />
+      <td><button onclick="loadFileAsText()">Submit</button><td>
+      <hr />
+      <div id="result">
+
+      </div>
+      <hr/>
+    </div>
+    
+    <div>
+        <h2>Problem 2</h2>
+        <p>Scroll at bottom to see problem 3</p>
+
+        <br />
+        <div id="map" style="width:100vw;height:50vh;"></div>
+        <br />
+        <div id="map1" style="width:100vw;height:20vh;"></div>
+    
+        <hr/>
+      </div>
+      <div>
+        <h2>Problem 3</h2>
+        <br />
+        <input type="file" id="get-file2" />
+        <p>Not able to solve whole</p>
+      <br /><br />
+      <td><button onclick="getFile()">Submit</button><td>
+    
+        <hr/>
+      </div>
+      <script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,places&key=AIzaSyDAQOhuvUriLPgDzVblnSSH7BUj-s2EMSw"></script>
+    <script src="./vendors/script.js"></script>
+    <script src="./middlewares/latitudeDistance.js"></script>
+    <script src="./middlewares/threading.js"></script>
+    <script src="./vendors/map.js"></script>
+    <script src="./vendors//problem3.js"></script>
+  </body>
+</html>
